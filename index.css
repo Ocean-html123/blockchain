@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kenia&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lobster&family=Pompiere&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+nav {
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+.navbar {
+    display: flex;
+    padding: 1rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+    /* overflow: hidden; */
+}
+p {
+    font-family: 'Dancing Script';
+    font-size: 2rem;
+    font-weight: 900;
+    color: #6d28d9;
+}
+input {
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    font-family: 'Pompiere';
+}
+nav a {
+    padding: 2rem;
+    margin-left: 4rem;
+    text-decoration: none;
+    color: #6d28d9;
+    font-family: 'Lobster';
+}
+nav a:hover{
+  font-size: 0.7rem;
+  color: #6d28d9;
+  transition: all 0.3s linear;
+}
+button {
+visibility: hidden;
+}
+form button {
+    visibility: visible;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: #6d28d9;
+    border: none;
+}
+.blue {
+    margin-top: 2rem;
+    border: 1px solid;
+    background-color: #6d28d9;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+.div {
+    color: white;
+    font-family:  'Pompiere';
+    text-align: center;
+    margin-top: rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.flex {
+    margin-top: rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Pompiere';
+}
+h2 {
+    font-size: 1.3rem;
+}
+h4{
+    font-size: 0.7rem;
+}
+td {
+    padding: 1rem 6rem;
+    overflow: hidden;
+} 
+th {
+    font-family: 'Lobster';
+    color: seagreen;
+}
+table {
+    width: 100%;
+    margin-bottom: 4rem;
+    background-color: rgba(235, 220, 202, 0.514);
+    
+}
+h1 {
+    margin-top: 3.5rem;
+    text-align: center;
+    color: #6d28d9;
+}
+footer a {
+    margin: 0;
+    padding: 0;
+    padding: 1rem;
+    color: #6d28d9;
+}
+footer a:hover {
+    font-size: 1.5rem;
+    color: #6d28d9;
+    transition: all 0.3s linear;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.2rem;
+}
+footer p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.bar {
+    display: none;
+}
+.bar-overlay {
+    display: none;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+h3 {
+    font-weight: 300;
+    font-size: 1rem;
+}
+.padding {
+display: grid;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    color: seagreen;
+    font-family: 'Lobster';
+    
+}
+
+
+.body {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    place-items: center;
+    gap: 1rem 1rem;
+    margin-top: 1rem;
+}
+
+ form .border {
+    border: 1px solid;
+    padding: 1rem;
+ margin-left: 0.2rem;
+ max-height: 200px;
+ width: 200px;
+ background-color: white;
+ overflow: scroll;
+position: absolute;
+}
+h5 {
+    cursor: pointer;
+}
+.text {
+    font-family: sans-serif;
+    color: rgb(134, 128, 128);
+    font-size: 0.6rem;
+    text-align: center;
+}
+.border {
+    font-family: 'Pompiere';
+}
+@media screen and (max-width: 900px){
+   
+    .text {
+        font-family: sans-serif;
+        color: rgb(134, 128, 128);
+        font-size: 0.6rem;
+        text-align: center;
+    }
+ 
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        place-items: center;
+        color: seagreen;
+        font-family: 'Lobster';
+        
+    }
+    
+    .rank{
+        display: none;
+    }
+    
+    .cap{
+        display: none;
+    }
+    .body {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        place-items: center;
+        gap: 1rem 1rem;
+        margin-top: 1rem;
+    }
+.trade {
+    visibility: hidden;
+}
+
+.bar-overlay {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgba(46, 139, 86, 0.329);
+    transition: all 3s linear;
+    transform: scale(0);
+}
+
+.bar {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 60%;
+    background-color: #6d28d9;
+}
+.bar i {
+   position: absolute; 
+    top: 0.8rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+}
+.bar p {
+    color: white;
+    margin-top: 0.8rem;
+}
+.show-overlay {
+    display: block;
+    transition: all 3s linear;
+    transform: scale(1);
+}
+    .close {
+        visibility: visible;
+    }
+    .open {
+    background-color: #6d28d9;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+        visibility: visible;
+        padding: 0.5rem;
+        cursor: pointer;
+        }
+
+        .anchor {
+           
+           display: none;
+        }
+
+        .close-1{
+            display: none;
+        }
+
+    .input {
+        display: none;
+    }
+
+        .border {
+            position: absolute;
+            left: 15rem;
+            padding: 0.5rem;
+            top: 3.2rem;
+        }
+
+        
+        .bar a {
+            color: white;
+            visibility: visible;
+            text-decoration: none;
+        }
+        .bar a:hover{
+            font-size: 1.5rem;
+            /* color: burlywood; */
+            transition: all 0.3s linear;
+        }
+        .link {
+            margin-top: 4rem;
+            font-size: 2rem;
+            margin-left: 1rem;
+            font-family: 'Lobster';
+        }
+       
+       footer a {
+        visibility: visible;
+        
+       }
+       .percent.redd{
+        color: crimson;
+       }
+     .body a {
+       visibility: visible;
+    }
+    .status {
+        visibility: hidden;
+    }
+}
+
+.red{
+    color: crimson;
+   }
