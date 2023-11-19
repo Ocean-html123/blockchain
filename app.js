@@ -49,7 +49,6 @@ const fetchData = async () =>{
    return `  <h3 class="rank">${rank}</h3>
    <h3 class="name">${name}
     <p class="text">${symbol}</p>
-  
    </h3>
    <h3 class="price">$${newPrice2}</h3>
    <h3 class="cap">$${newMarket2} b</h3>

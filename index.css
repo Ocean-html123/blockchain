@@ -12,9 +12,12 @@ nav {
     border-left: none;
     border-right: none;
     border-top: none;
-    border-bottom: none;
+    /* border-bottom: none; */
    box-sizing: border-box;
    overflow: hidden;
+   border-radius: 2rem;
+   border-bottom-width: 0.4rem;
+   border-bottom-color: #6d28d9;
 }
 .navbar {
     display: flex;
